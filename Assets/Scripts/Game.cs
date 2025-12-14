@@ -60,6 +60,7 @@ public class Game : MonoBehaviour
         GameObject Wall = Instantiate(CardPrefab, WallSpawn.transform, false);
         Wall.GetComponent<CardInfo>().FillCardInfo((Card)WallCard.Clone());
         IEnemy.GetComponent<Enemy>().SetEnemy(40, 5, "Sprites/Cards/Boss_Destroyer", "Разрушитель миров", "Воплощение ярости");
+        Debug.Log("Игра началась!"); // изменения
     }
 
     public void EndPlayerTurn()
