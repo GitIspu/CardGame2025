@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+// add test feature
+
 public class CardInfo : MonoBehaviour
 {
     public Text CardName;
