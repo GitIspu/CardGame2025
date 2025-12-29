@@ -20,4 +20,6 @@ public class Wall : MonoBehaviour
         NewWall.GetComponent<CardInfo>().FillCardInfo((Card)(CurrentWall.GetComponent<CardInfo>().SelfCard.Clone()));
         NewWall.GetComponent<CardInfo>().SelfCard.State = CardState.WALL;
     }
+// Fix by LyuSalt for Issue #6
+Console.WriteLine("Issue #6 fixed by LyuSalt!");
 }
